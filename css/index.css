@@ -168,8 +168,11 @@ img {
   width: 100%;
   margin: 0 auto;
 }
-.main-navigation {
-  height: 75px;
+.header-nav {
+  border-bottom: 2px dashed #C0C0C0;
+}
+.header-nav .main-navigation {
+  height: 85px;
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -177,12 +180,12 @@ img {
   padding: 20px 0;
   margin: 0 auto;
 }
-.main-navigation .nav-links {
+.header-nav .main-navigation .nav-links {
   width: 45%;
   display: flex;
   justify-content: space-between;
 }
-.main-navigation .nav-links a {
+.header-nav .main-navigation .nav-links a {
   text-decoration: none;
   color: black;
   font-family: Roboto, sans-serif;

@@ -1,1 +1,38 @@
 // Navigation Styles here
+
+.header-nav {
+  border-bottom: 2px dashed @navigation-border;
+  .main-navigation {
+    height: 85px;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    max-width: 800px;
+    padding: 20px 0;
+    margin: 0 auto;
+
+    @media @mobile {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .nav-links {
+      width: 45%;
+      display: flex;
+      justify-content: space-between;
+
+      @media @mobile {
+        width: 90%;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-family: Roboto, sans-serif;
+        font-size: 1.4rem;
+        font-weight: bold;
+      }
+    }
+  }
+}

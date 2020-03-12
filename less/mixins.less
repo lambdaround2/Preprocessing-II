@@ -1,1 +1,15 @@
 // Mixins in here
+
+.custom-btn(@justify: center, @align: center, @bg-color: teal, @font-color: white) {
+  display: flex;
+  justify-content: @justify;
+  align-items: @align;
+  background: @bg-color;
+  color: @font-color;
+  width: 85%;
+  padding: 10px 0;
+  font-size: 1.6rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
